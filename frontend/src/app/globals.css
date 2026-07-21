@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* -------------------- */
+/* Reset */
+/* -------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -------------------- */
+/* Body */
+/* -------------------- */
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg,
+      #7c3aed,
+      #3b82f6,
+      #06b6d4);
+}
+
+/* -------------------- */
+/* Smooth Scroll */
+/* -------------------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* -------------------- */
+/* Scrollbar */
+/* -------------------- */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dbeafe;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6366f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4338ca;
+}
+
+/* -------------------- */
+/* Selection */
+/* -------------------- */
+
+::selection {
+  background: #2563eb;
+  color: white;
+}
